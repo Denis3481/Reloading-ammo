@@ -13,9 +13,12 @@
 		922E60C82983FDA600F2C30D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922E60C62983FDA600F2C30D /* Main.storyboard */; };
 		922E60CA2983FDA700F2C30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922E60C92983FDA700F2C30D /* Assets.xcassets */; };
 		922E60CD2983FDA700F2C30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922E60CB2983FDA700F2C30D /* LaunchScreen.storyboard */; };
-		922E60DA2984155100F2C30D /* SelectAmmoScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E60D92984155100F2C30D /* SelectAmmoScreenController.swift */; };
+		922E60DA2984155100F2C30D /* SelectAmmoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E60D92984155100F2C30D /* SelectAmmoController.swift */; };
 		922E60DC2984214200F2C30D /* SelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E60DB2984214200F2C30D /* SelectTableViewCell.swift */; };
 		922E60DF29842B6700F2C30D /* StageReloadingAmmoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E60DE29842B6700F2C30D /* StageReloadingAmmoController.swift */; };
+		92417F12298516AE0018ED5E /* StageReloadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92417F11298516AE0018ED5E /* StageReloadingTableViewCell.swift */; };
+		92BA2EDA29851A490033491A /* DescripStageReloadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA2ED929851A490033491A /* DescripStageReloadingController.swift */; };
+		92BA2EDC29851A6A0033491A /* DescripStageReloadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA2EDB29851A6A0033491A /* DescripStageReloadingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +30,12 @@
 		922E60C92983FDA700F2C30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		922E60CC2983FDA700F2C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		922E60CE2983FDA700F2C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		922E60D92984155100F2C30D /* SelectAmmoScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAmmoScreenController.swift; sourceTree = "<group>"; };
+		922E60D92984155100F2C30D /* SelectAmmoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAmmoController.swift; sourceTree = "<group>"; };
 		922E60DB2984214200F2C30D /* SelectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTableViewCell.swift; sourceTree = "<group>"; };
 		922E60DE29842B6700F2C30D /* StageReloadingAmmoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageReloadingAmmoController.swift; sourceTree = "<group>"; };
+		92417F11298516AE0018ED5E /* StageReloadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageReloadingTableViewCell.swift; sourceTree = "<group>"; };
+		92BA2ED929851A490033491A /* DescripStageReloadingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescripStageReloadingController.swift; sourceTree = "<group>"; };
+		92BA2EDB29851A6A0033491A /* DescripStageReloadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescripStageReloadingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 				922E60D629840E2400F2C30D /* LoginScreen */,
 				922E60D8298414EA00F2C30D /* SelectAmmoScreen */,
 				922E60DD29842AEE00F2C30D /* StageReloadingAmmoScreen */,
+				92BA2ED829851A130033491A /* DescripStageReloadingScreen */,
 				922E60D429840DED00F2C30D /* Network */,
 				922E60C02983FDA600F2C30D /* AppDelegate.swift */,
 				922E60C22983FDA600F2C30D /* SceneDelegate.swift */,
@@ -94,7 +101,7 @@
 		922E60D8298414EA00F2C30D /* SelectAmmoScreen */ = {
 			isa = PBXGroup;
 			children = (
-				922E60D92984155100F2C30D /* SelectAmmoScreenController.swift */,
+				922E60D92984155100F2C30D /* SelectAmmoController.swift */,
 				922E60DB2984214200F2C30D /* SelectTableViewCell.swift */,
 			);
 			path = SelectAmmoScreen;
@@ -104,8 +111,18 @@
 			isa = PBXGroup;
 			children = (
 				922E60DE29842B6700F2C30D /* StageReloadingAmmoController.swift */,
+				92417F11298516AE0018ED5E /* StageReloadingTableViewCell.swift */,
 			);
 			path = StageReloadingAmmoScreen;
+			sourceTree = "<group>";
+		};
+		92BA2ED829851A130033491A /* DescripStageReloadingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				92BA2ED929851A490033491A /* DescripStageReloadingController.swift */,
+				92BA2EDB29851A6A0033491A /* DescripStageReloadingTableViewCell.swift */,
+			);
+			path = DescripStageReloadingScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +199,12 @@
 				922E60C52983FDA600F2C30D /* LoginViewController.swift in Sources */,
 				922E60C12983FDA600F2C30D /* AppDelegate.swift in Sources */,
 				922E60DF29842B6700F2C30D /* StageReloadingAmmoController.swift in Sources */,
-				922E60DA2984155100F2C30D /* SelectAmmoScreenController.swift in Sources */,
+				922E60DA2984155100F2C30D /* SelectAmmoController.swift in Sources */,
 				922E60C32983FDA600F2C30D /* SceneDelegate.swift in Sources */,
 				922E60DC2984214200F2C30D /* SelectTableViewCell.swift in Sources */,
+				92417F12298516AE0018ED5E /* StageReloadingTableViewCell.swift in Sources */,
+				92BA2EDA29851A490033491A /* DescripStageReloadingController.swift in Sources */,
+				92BA2EDC29851A6A0033491A /* DescripStageReloadingTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

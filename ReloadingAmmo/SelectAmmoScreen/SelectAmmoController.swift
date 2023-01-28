@@ -1,5 +1,5 @@
 //
-//  SelectAmmoScreenController.swift
+//  SelectAmmoController.swift
 //  ReloadingAmmo
 //
 //  Created by Денис Шишкин on 27.01.2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SelectAmmoScreenController: UIViewController {
+class SelectAmmoController: UIViewController {
   
   @IBOutlet weak var selectTableView: UITableView!
   
@@ -16,7 +16,7 @@ class SelectAmmoScreenController: UIViewController {
   }
       
     }
-extension SelectAmmoScreenController: UITableViewDataSource {
+extension SelectAmmoController: UITableViewDataSource {
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     if section == 0 {
