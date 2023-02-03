@@ -6,12 +6,17 @@
 //
 
 import UIKit
+import NetworkLayer
+
 class SelectTableViewCell: UITableViewCell {
       
-//      var indexPath: IndexPath?
-//
-//      override func prepareForReuse() {
-//          super.prepareForReuse()
-//          self.indexPath = nil
-//      }
+  @IBOutlet weak var repicAmmoPic: UIImageView!
+  @IBOutlet weak var recipTextLabel: UILabel!
+    
+//    var indexPath: IndexPath?
+  
+
+
+
+    
 }

@@ -6,8 +6,13 @@
 //
 
 import UIKit
+import NetworkLayer
 
 class StageReloadingCell: UITableViewCell {
       
+  @IBOutlet weak var stepTextLabel: UILabel!
+  
+  var indexPath: IndexPath?
+
 
 }
